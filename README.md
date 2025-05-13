@@ -6,8 +6,8 @@
 ## Parse GET and/or POST data into a dict
 
 #### With a POST request you can parse POST data and the url query string. 
-Example:
-* Code nstuff.cgi
+Example: Return POST and GET data from a request as JSON 
+* nstuff.cgi
 ```py3
 #!/usr/bin/env python3
 
