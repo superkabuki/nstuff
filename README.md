@@ -46,3 +46,7 @@ a@fu:~$ curl -d "say"="Hey Koolaid" https://iodisco.com/cb/nstuff.cgi?adrian=isc
 {"adrian": "iscool", "say": "Hey Koolaid"}
 
 ```
+
+### The only method you need to call is nstuff() and it will return a dict of the request POST and GET vars . If you're just difficult, you can also call getstuff() or poststuff() directly and they will return the GET query string vars and POST data vars respectively.
+![image](https://github.com/user-attachments/assets/227fb62c-d027-492b-a6b1-71c191bcb5b3)
+
