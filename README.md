@@ -1,3 +1,4 @@
+[Install](#install)
 # nstuff
 ### CGI GET / POST data 
 
@@ -45,6 +46,24 @@ a@fu:~$ curl -d "say"="Hey Koolaid" https://iodisco.com/cb/nstuff.cgi?adrian=isc
 
 {"adrian": "iscool", "say": "Hey Koolaid"}
 
+```
+# INSTALL
+
+* Python3
+
+```py3
+python3 -mpip install nstuff 
+```
+* __pypy3__
+
+```py3
+pypy3 -mpip install nstuff 
+```
+
+* depending on the situation, you may need to add
+
+```py3
+--break-system-packages
 ```
 
 ### The only method you need to call is nstuff() and it will return a dict of the request POST and GET vars . If you're just difficult, you can also call getstuff() or poststuff() directly and they will return the GET query string vars and POST data vars respectively.
