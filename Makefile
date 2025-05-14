@@ -17,17 +17,9 @@ install: clean pkg
 
 pkg: clean
 	$(PY3) setup.py sdist bdist_wheel
-
-uninstall: clean
-	$(PIP3) uninstall threefive
 	
 upload: clean pkg	
 	twine upload dist/*
 
-upgrade:
-	$(PIP3) install --upgrade threefive
-
-debian: 
-	$(PIP3) install --upgrade threefive --break-system-packages
 
 
