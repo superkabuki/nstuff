@@ -17,6 +17,7 @@ import  sys
 from os import environ as E
 from urllib.parse import parse_qsl
 
+version="0.1.9"
 
 CT="CONTENT_TYPE"
 CL= "CONTENT_LENGTH"
