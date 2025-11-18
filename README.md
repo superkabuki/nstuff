@@ -1,5 +1,5 @@
 [Install](#install)
-# nstuff
+# nstuff-Kabuki
 ### CGI GET / POST data 
 
 #### Replacement for the now defunct cgi MiniFieldStorage
